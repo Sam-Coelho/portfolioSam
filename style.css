@@ -1,0 +1,300 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #21445B;
+}
+@media (min-width: 800px){
+#retrato{
+  width: 40%;
+  height:auto;
+  position: fixed;
+  bottom:-170px;
+  right: -100px; 
+}
+#aranha{
+  width: 30%;
+  height: auto;
+  position: fixed;
+  top:0px;
+  right: 0px;
+}
+  #cogo{
+    width: 15%;
+    height: auto;
+    position: fixed;
+    bottom:-5%;
+    left: -10px;
+  }
+  h1{
+    color: #1A6566;
+    position: relative;
+    top: 25px;
+    left: 10%;
+    font-family: zenKurenaido-Regular, helvetica;
+  }
+  #space{
+    height: 60px;
+    width:100%;
+  }
+  #ver_mais{
+    background-color: #21445B;;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    top:15px;
+    text-align: center;
+  }
+  .present{
+    width:40%;
+  }
+  #p{
+    position: relative;
+    left: 10%
+  }
+  #p1{
+    position: relative;
+    left: 45%;
+    top: 100px;
+  }
+
+  #p2{
+    position: relative;
+    left: 20%;
+    top: 140px;
+  }
+  #p3{
+    position: relative;
+    left: 40%;
+    top: 180px;
+  }
+  #p4{
+    position: relative;
+    left: 30%;
+    top: 220px;
+  }
+}
+@media (min-width: 400px) and ( max-width: 800px){
+#retrato{
+  width: 60%;
+  height:auto;
+  position: fixed;
+  bottom:-170px;
+  right: -80px; 
+}
+#aranha{
+  width: 50%;
+  height: auto;
+  position: fixed;
+  top:0px;
+  right: 0px;
+}
+  #cogo{
+    width: 20%;
+    height: auto;
+    position: fixed;
+    bottom:-5%;
+    left: -10px;
+  }
+  h1{
+    color: #1A6566;
+    position: relative;
+    top: 20px;
+    left: 10%;
+    font-family: zenKurenaido-Regular, helvetica;
+    font-size: 25px;
+  }
+  #space{
+    height: 50px;
+    width:100%;
+  }
+  #ver_mais{
+    background-color: #21445B;;
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    top:10px;
+    text-align: center;
+  }
+  .present{
+    width:50%;
+  }
+  #p{
+    position: relative;
+    left: 10%
+  }
+  #p1{
+    position: relative;
+    left: 30%;
+    top: 100px;
+  }
+
+  #p2{
+    position: relative;
+    left: 15%;
+    top: 140px;
+  }
+  #p3{
+    position: relative;
+    left: 25%;
+    top: 180px;
+  }
+  #p4{
+    position: relative;
+    left: 20%;
+    top: 220px;
+  }
+}
+@media (max-width: 400px){
+#retrato{
+  width: 100%;
+  height:auto;
+  position: fixed;
+  bottom:-100px;
+  right: -130px; 
+}
+#aranha{
+  width: 70%;
+  height: auto;
+  position: fixed;
+  top:0px;
+  right: 0px;
+}
+  #cogo{
+    width: 40%;
+    height: auto;
+    position: fixed;
+    bottom:-5%;
+    left: -10px;
+  }
+  h1{
+    color: #1A6566;
+    position: relative;
+    top: 15px;
+    left: 10%;
+    font-family: zenKurenaido-Regular, helvetica;
+    font-size: 15px;
+  }
+  #space{
+    height: 40px;
+    width:100%;
+  }
+  #ver_mais{
+    background-color: #21445B;;
+    width: 50%;
+    height: 25px;
+    border-radius: 20px;
+    position: relative;
+    top:10px;
+    text-align: center;
+  }
+  .present{
+    width:60%;
+  }
+  #p{
+    position: relative;
+    left: 10%
+  }
+  #p1{
+    position: relative;
+    left: 30%;
+    top: 100px;
+  }
+
+  #p2{
+    position: relative;
+    left: 15%;
+    top: 140px;
+  }
+  #p3{
+    position: relative;
+    left: 25%;
+    top: 180px;
+  }
+
+  #p4{
+    position: relative;
+    left: 20%;
+    top: 220px;
+  }
+}
+
+p{
+  color: #323050;
+  position: relative;
+  top: 10px;
+  left: 10%;
+  width: 80%;
+  font-family: zenKurenaido-Regular, helvetica;
+}
+div{
+  border-radius: 30px;
+}
+
+#about_artist{
+  background-color: #5D8A66;
+  position: relative;
+  width: 50%;
+  left: 20%;
+  top: 200px;
+}
+
+.present{
+  background-color: #5D8A66;
+  position: relative;
+  top: 50px;
+}
+
+.imggg{
+  width: 80%;
+  height:auto;
+  position: relative;
+  left: 10%;
+  top: 10px;
+  border-radius: 20px;
+}
+.imgg{
+  width: 80%;
+  height:auto;
+  position: relative;
+  left: 10%;
+  top: 30px;
+  border-radius: 20px;
+}
+
+.v1{
+  position: relative;
+  left:60%;
+}
+.v2{
+  position: relative;
+  left:10%;
+}
+
+
+#ver_mais a{
+  width:100%;
+  position: relative;
+  top:5px;
+  color: #5D8A66;
+}
+
+#putz{
+  width:100%;
+  height:100px;
+  background-color: #21445B;
+  position: relative;
+  top: 300px;
+}
+#putz h1{
+  color: #21445B;
+}
+
+#baixo{
+  width:100%;
+  height:100px;
+  position: relative;
+  bottom: -250px;
+  background-color: #5D8A66;
+}
