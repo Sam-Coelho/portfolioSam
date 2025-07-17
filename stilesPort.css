@@ -1,0 +1,269 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+    background-color: #103d59 ;
+    background-repeat: repeat;
+    color: #e1c4f6;
+}
+
+/* Cabeçalho */
+#header1 {
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#aviso{
+    display: none;
+}
+
+
+/* Menu */
+#menu a {
+    margin: 0 1rem;
+    color: #e1c4f6;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #e1c4f6;
+}
+
+/* Área de vendas */
+#vendas {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem 2rem;
+    align-items: center;
+}
+
+/* Cada bloco de produto */
+.Showers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 900px;
+    padding: 2rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+#stickers{
+    overflow: visible;
+    background-image: url('fundo\ verde\ 1.png');
+    background-size: 100% auto; /* maior que o div */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Pins{
+    overflow: visible;
+    background-image: url('fundo\ verde\ 2.png');
+    background-size: 100% auto; /* maior que o div */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#pulseiras{
+    overflow: visible;
+    background-image: url('fundo\ verde\ 3.png');
+    background-size: 100% auto; /* maior que o div */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#marcadores{
+    overflow: visible;
+    background-image: url('fundo\ verde\ 4.png');
+    background-size: 100% auto; /* maior que o div */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* outros projetos*/
+#Shapeless{
+    overflow: visible;
+    background-image: url('fundo\ verde\ 4.png');
+    background-size: 100% auto; /* maior que o div */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* Imagem do produto */
+.showImg {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+/* Texto do produto */
+.divText {
+    flex: 1;
+    text-align: left;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #e1c4f6;
+    margin-bottom: 0.5rem;
+}
+
+.descrição, .descrição2 {
+    color: #f5e8ff;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+.Click {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #ffb2ff;
+    font-style: italic;
+}
+
+/* Responsivo */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    #aviso{
+        display: none;
+    }
+    .Showers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 500px;
+        padding: 2rem;
+        gap: 2rem;
+        width: 100%;
+    }
+    .title {
+        font-size: 1.6rem;
+        color: #e1c4f6;
+        margin-bottom: 0.5rem;
+    }
+    .descrição, .descrição2 {
+        color: #f5e8ff;
+        font-size: 0.8rem;
+        margin: 0.3rem 0;
+    }
+    
+    .Click {
+        margin-top: 1rem;
+        font-weight: bold;
+        color: #ffb2ff;
+        font-style: italic;
+    }
+
+    #menu a {
+        margin: 0 1rem;
+        color: #e1c4f6;
+        text-decoration: none;
+        font-size: 1rem;
+        border-bottom: 3px solid transparent;
+        transition: border-bottom 0.3s;
+    }
+    
+}
+
+@media screen and (max-width: 600px)and (min-width: 400px) {
+    #aviso{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width:50%;
+        height:100px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    #button{
+        color: #5d8a66;
+    }
+    .Showers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 300px;
+        padding: 2rem;
+        gap: 2rem;
+        width: 100%;
+    }
+    .title {
+        font-size: 1.4rem;
+        color: #e1c4f6;
+        margin-bottom: 0.5rem;
+    }
+    .descrição, .descrição2 {
+        color: #f5e8ff;
+        font-size: 0.7rem;
+        margin: 0.3rem 0;
+    }
+    
+    .Click {
+        margin-top: 0.7rem;
+        font-weight: bold;
+        color: #ffb2ff;
+        font-style: italic;
+    }
+    #menu a {
+        margin: 0 1rem;
+        color: #e1c4f6;
+        text-decoration: none;
+        font-size: 0.9rem;
+        border-bottom: 3px solid transparent;
+        transition: border-bottom 0.3s;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .Showers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 150px;
+        padding: 2rem;
+        gap: 2rem;
+        width: 100%;
+    }
+    .title {
+        font-size: 1.2rem;
+        color: #e1c4f6;
+        margin-bottom: 0.5rem;
+    }
+    .descrição, .descrição2 {
+        display: none;
+    }
+    
+    .Click {
+        color: #f5e8ff;
+        font-size: 0.7rem;
+        margin: 0.3rem 0;
+    }
+    .showImg {
+        width: 65%;
+        height: auto;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+    #menu a {
+        margin: 0 1rem;
+        color: #e1c4f6;
+        text-decoration: none;
+        font-size: 0.8rem;
+        border-bottom: 6px solid transparent;
+        transition: border-bottom 0.3s;
+    }
+    
+}
